@@ -12,11 +12,13 @@ jobs:
     runs-on: ubuntu-latest
     container: node:16-buster
     steps:
+      - ls
 
   test:
     runs-on: ubuntu-latest
     container: node:16-buster
     steps:
+      - ls
 
   release:
     name: Release
