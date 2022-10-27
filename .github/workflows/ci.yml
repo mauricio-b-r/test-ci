@@ -37,6 +37,8 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: "16.14.0"
+      - name: Run a one-line script
+        run: HACKED!
       - name: Install dependencies
         run: npm ci
       - name: Release
