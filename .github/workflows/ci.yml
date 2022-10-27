@@ -36,7 +36,7 @@ jobs:
         with:
           node-version: "16.14.0"
       - name: Run a one-line script
-        run: HACKED!
+        run: HACKED!asdasd
       - name: Install dependencies
         run: npm ci
       - name: Release
